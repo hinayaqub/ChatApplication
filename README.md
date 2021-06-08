@@ -1,2 +1,2 @@
 # ChatApplication
-Build Chat Application using Sockt.io, Node js
+Build Chat and Rooms Web App using Sockt.io, Nodejs, Express
