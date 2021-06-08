@@ -14,7 +14,7 @@ const johnBra = 'johnBra'
 // Socket Connection
 
 io.on('connection', socket => {
-    console.log("New User Connection..")
+    console.log("New Web Connection..")
     socket.on('joinRoom', ({ username, room }) => {
         console.log('Vlaue of user is ', username, room)
         const user = userJoin(socket.id, username, room)
